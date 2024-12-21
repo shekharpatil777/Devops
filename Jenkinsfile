@@ -20,13 +20,13 @@ pipeline {
         stage('build') {
             steps {
                  echo "docker build"
-                 sh 'sudo docker build -t chandrashekharpatil/tourwebsite:latest .' 
+                 sh 'docker build -t chandrashekharpatil/tourwebsite:latest .' 
             }
         }
         stage('push') {
             steps {
                echo "push image"
-               sh 'sudo docker push chandrashekharpatil/tourwebsite:latest'
+               sh 'docker push chandrashekharpatil/tourwebsite:latest'
             }
         }
     }
