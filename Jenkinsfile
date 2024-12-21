@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-               git branch: 'develop'
+               git branch: 'develop' ,  url: 'https://github.com/shekharpatil777/Devops.git' 
             }
         }
         stage('build') {
