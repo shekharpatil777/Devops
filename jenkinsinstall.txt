@@ -13,4 +13,6 @@ sudo dnf install java-17-amazon-corretto-devel
 systemctl enable jenkins
 systemctl start jenkins
 
+publicipofEC2:8080
+sudo more /var/lib/jenkins/secrets/initialAdminPassword # run command in cmd it will return password
 
