@@ -1,12 +1,14 @@
-create EC2 instance on AWS
-configure security greoup of ec2
+create EC2 instance on AWS 
+linuxos
+add to vpc with public subnet and enable elasticip
+configure security group of ec2 --> add route 8080 
 install all requirements on ec2 as below
 
   sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
   sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
   yum install fontconfig java-17-openjdk
-# if above not working use below  command
+# if the above not working use the below  command
 sudo dnf install java-17-amazon-corretto-devel
   yum install jenkins
 
