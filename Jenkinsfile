@@ -9,6 +9,14 @@ pipeline {
                git branch: 'develop' ,  url: 'https://github.com/shekharpatil777/Devops.git' 
             }
         }
+        stage('login) {
+            steps {
+                 echo "docker build"
+                 withCredentials([usernamePassword(credentialsId: 'cp-dockerhub', passwordVariable: 'dockerhubpwd', usernameVariable: 'dockerhubUser')]) {
+                          sh ' echo ${dockerhubpwd} | docker login -u  ${dockerhubUser} --password-stdin'
+                                 }
+            }
+        }
         stage('build') {
             steps {
                  echo "docker build"
