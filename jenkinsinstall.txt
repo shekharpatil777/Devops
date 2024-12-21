@@ -6,6 +6,8 @@ install all requirements on ec2 as below
   sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
   yum install fontconfig java-17-openjdk
+# if above not working use below  command
+sudo dnf install java-17-amazon-corretto-devel
   yum install jenkins
 
 systemctl enable jenkins
