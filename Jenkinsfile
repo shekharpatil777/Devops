@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-               git branch: 'main'
+               git branch: 'develop'
             }
         }
         stage('build') {
