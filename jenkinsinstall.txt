@@ -16,3 +16,8 @@ systemctl start jenkins
 publicipofEC2:8080
 sudo more /var/lib/jenkins/secrets/initialAdminPassword # run command in cmd it will return password
 
+#install git on EC2
+sudo dnf install git-all
+
+configure git in global credentials
+
