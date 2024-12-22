@@ -11,9 +11,7 @@ const places = [
   },
   {
     name: "hampi",
-    description: "Location: Hampi is located on the banks of the Tungabhadra River in Karnataka, India. 
-History : Hampi was the capital of the Vijayanagara Empire in the 14th century. The city is believed to be even older than that, with mentions in the ancient epic, the Ramayana. 
-Monuments  Hampi is a UNESCO World Heritage Site and is known for its many monuments, including temples, royal buildings, markets, and more",
+    description: "Location: Hampi is located on the banks of the Tungabhadra River in Karnataka, India.",
     imageUrl: "images/hampi.jpg" 
   },
   {
