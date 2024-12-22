@@ -1,7 +1,8 @@
 pipeline {
     agent  any
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('cp-dockerhub')   
+        DOCKERHUB_CREDENTIALS = credentials('cp-dockerhub')
+        BUILD_NUMBER = env.BUILD_NUMBER 
     }
     stages {
         stage('pull') {
@@ -21,13 +22,13 @@ pipeline {
             steps {
                  echo "docker build"
                  //sh 'sudo usermod -a -G docker ec2-user'
-                 sh 'docker build -t chandrashekharpatil/tourwebsite:latest .' 
+                 sh 'docker build -t chandrashekharpatil/tourwebsite:${env.BUILD_NUMBER} .' 
             }
         }
         stage('push') {
             steps {
                echo "push image"
-               sh 'docker push chandrashekharpatil/tourwebsite:latest'
+               sh 'docker push chandrashekharpatil/tourwebsite:${env.BUILD_NUMBER}'
             }
         }
     }
