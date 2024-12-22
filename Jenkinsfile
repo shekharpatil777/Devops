@@ -23,16 +23,13 @@ pipeline {
                  echo "docker build"
                  //sh 'sudo usermod -a -G docker ec2-user'
                  sh "echo Building with build number: ${env.BUILD_NUMBER}"
-                 sh 'docker build -t chandrashekharpatil/tourwebsite:${env.BUILD_NUMBER} .' 
+                 sh 'docker build -t chandrashekharpatil/tourwebsite:"${env.BUILD_NUMBER}" .' 
             }
         }
         stage('push') {
             steps {
                echo "push image"
-               sh 'docker push chandrashekharpatil/tourwebsite:${env.BUILD_NUMBER}'
-            }
-        }
-    }
+               sh 'docker push chandrashekharpatil/tourwebsite:"${env.BUILD_NUMBER}"'
     post {
       always {
            sh 'docker logout'
