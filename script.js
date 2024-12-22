@@ -2,12 +2,12 @@ const places = [
   {
     name: "Taj Mahal",
     description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra.",
-    imageUrl: "https://example.com/taj-mahal.jpg" 
+    imageUrl: "images/Tajmahal.jpg" 
   },
   {
     name: "Red Fort",
     description: "The Red Fort is a historic fort in the city of Delhi, India.",
-    imageUrl: "https://example.com/red-fort.jpg" 
+    imageUrl: "images/redfort.jpg" 
   },
   // Add more places here
 ];
