@@ -30,6 +30,9 @@ pipeline {
             steps {
                echo "push image"
                sh 'docker push chandrashekharpatil/tourwebsite:${BUILD_NUMBER}'
+            }
+        }
+    }
     post {
       always {
            sh 'docker logout'
