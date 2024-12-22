@@ -22,6 +22,7 @@ pipeline {
             steps {
                  echo "docker build"
                  //sh 'sudo usermod -a -G docker ec2-user'
+                 sh "echo Building with build number: ${env.BUILD_NUMBER}"
                  sh 'docker build -t chandrashekharpatil/tourwebsite:${env.BUILD_NUMBER} .' 
             }
         }
