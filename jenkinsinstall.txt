@@ -25,3 +25,23 @@ sudo dnf install git-all
 Go to Manage Jenkins -> Global Tool Configuration.
 Under Git, click on Add Git.Provide a name (e.g., "System Git") and enter the path to the git executable e.g., /usr/bin/git on Linux
 
+add dockerhub credentials in credentials section along with id
+
+sudo dnf search docker
+sudo dnf install packagename
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl restart docker
+sudo systemctl cat jenkins.service
+sudo usermod -aG docker jenkins   # Add the Jenkins User to the Docker Group:
+sudo systemctl restart jenkins
+
+docker login
+echo "password/token" | docker login -u usernamedockerhub --password-stdin
+
+docker build -t imagetag .
+docker push imagetag
+
+docker run -d -p 80:80 chandrashekharpatil/tourwebsite:18
+
+
