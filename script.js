@@ -16,7 +16,7 @@ const places = [
   },
   {
     name: "Mehrangarh Fort",
-    description: "Mehrangarh is an historic fort located in Jodhpur, Rajasthan, India. It stands on a hilltop, rising about 122 m (400 ft) above the surrounding plains,
+    description: "Mehrangarh is an historic fort located in Jodhpur, Rajasthan, India. It stands on a hilltop, rising about 122 m (400 ft) above the surrounding plains,"
     imageUrl: "images/mehrangarhfort.jpg" 
   },
   {
