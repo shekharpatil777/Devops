@@ -20,7 +20,7 @@ pipeline {
         stage('build') {
             steps {
                  echo "docker build"
-                 sh 'sudo usermod -a -G docker ec2-user'
+                 //sh 'sudo usermod -a -G docker ec2-user'
                  sh 'docker build -t chandrashekharpatil/tourwebsite:latest .' 
             }
         }
