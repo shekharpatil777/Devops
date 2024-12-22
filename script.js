@@ -9,7 +9,23 @@ const places = [
     description: "The Red Fort is a historic fort in the city of Delhi, India.",
     imageUrl: "images/redfort.jpg" 
   },
-  // Add more places here
+  {
+    name: "hampi",
+    description: "Location: Hampi is located on the banks of the Tungabhadra River in Karnataka, India. 
+History : Hampi was the capital of the Vijayanagara Empire in the 14th century. The city is believed to be even older than that, with mentions in the ancient epic, the Ramayana. 
+Monuments  Hampi is a UNESCO World Heritage Site and is known for its many monuments, including temples, royal buildings, markets, and more",
+    imageUrl: "images/hampi.jpg" 
+  },
+  {
+    name: "Mehrangarh Fort",
+    description: "Mehrangarh is an historic fort located in Jodhpur, Rajasthan, India. It stands on a hilltop, rising about 122 m (400 ft) above the surrounding plains,
+    imageUrl: "images/mehrangarhfort.jpg" 
+  },
+  {
+    name: "Lotus temple",
+    description: "The temple is located in the village of Bahapur, near the Nehru Place metro station",
+    imageUrl: "images/lotustemple.jpg" 
+  },
 ];
 
 const placesList = document.getElementById("places-list");
