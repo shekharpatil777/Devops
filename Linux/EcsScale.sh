@@ -10,5 +10,5 @@ SERVICES=$(aws ecs list-services --cluster <YOUR_CLUSTER_NAME> --query 'serviceA
 for SERVICE in $SERVICES; do
   aws ecs update-service --cluster <YOUR_CLUSTER_NAME> --service "$SERVICE" --desired-count "$DESIRED_COUNT"
 done
-
+# shows all services scaled up
 echo "All services in cluster <YOUR_CLUSTER_NAME> scaled up to $DESIRED_COUNT instances."
