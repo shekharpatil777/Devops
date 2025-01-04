@@ -12,6 +12,7 @@ if [[ -z "$ENV" || -z "$SERVICE" ]]; then
   exit 1
 fi
 
+#below code check condition for cluster
 # Define cluster name based on environment
 case "$ENV" in
   dev)
