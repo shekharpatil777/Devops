@@ -8,7 +8,7 @@ function is_file {
         exit 2
     fi
 }
-
+#below function is for  clean file
 function clean_file {
     is_file "$1"
     BEFORE=$(wc -l "$1")
