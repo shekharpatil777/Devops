@@ -1,7 +1,7 @@
 #!/bin/sh
 # validalAlphaNum - Ensures that input only consists of alphabetical
 #              and numeric characters.
-
+# below is function for validation 
 validAlphaNum()
 {
   # validate arg: returns 0 if all upper+lower+digits, 1 otherwise
