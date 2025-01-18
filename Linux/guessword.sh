@@ -46,7 +46,7 @@ template="$(echo $blank | cut -c1-$letters)"
 remaining=$letters ; guessed="" ; guesses=0; badguesses=0
 
 echo "** You're trying to guess a word with $letters letters **"
-
+#below while loop
 while [ $remaining -gt 0  ] ; do
   echo -n "Word is: $template  Try what letter next? " ; read guess
   guesses=$(( $guesses + 1 ))
