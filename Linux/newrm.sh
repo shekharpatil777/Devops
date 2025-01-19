@@ -1,7 +1,17 @@
 #!/bin/sh
 
+# newrm - a replacement for the existing rm command that allows a 
+#   rudimentary unremove capability through utilizing a newly created
+#   directory in the user's home directory. It can handle directories
+#   of content as well as individual files, and if the user specifies
+#   the -f flag, files are NOT archived, but removed.
 
- mydir="$HOME/.deleted-files"
+# Big Important Warning: you'll want a cron job or similar to keep the
+#   individual trash directories tamed, otherwise nothing will ever 
+#   actually be deleted on the system and you'll run out of disk space!
+
+
+mydir="$HOME/.deleted-files"
 realrm="/bin/rm "
   copy="/bin/cp -R"
 
