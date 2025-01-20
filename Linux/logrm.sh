@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#  logrm - log all file deletion requests unless "-s" flag is used
 
 removelog="/tmp/removelog.log"
 
