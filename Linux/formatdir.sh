@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# formatdir - output a directory listing in a friendly and useful format
 
 
 gmk()
