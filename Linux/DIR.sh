@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#  DIR - pretend we're the DIR command in DOS and display the contents
+#    of the specified file, accepting some of the standard DIR flags
 
 usage()
 {
