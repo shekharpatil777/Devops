@@ -1,6 +1,10 @@
 #!/bin/sh
 
-
+# timein - show the current time in the specified timezone or 
+#   geographic zone. Without any argument, show UTC/GMT. Use
+#   the word "list" to see a list of known geographic regions
+#   Note that it's possible to match a zone directory (a region)
+#   but that only timezone files are valid specifications.
 
 #!/bin/sh
 
