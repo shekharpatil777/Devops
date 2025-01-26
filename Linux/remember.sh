@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#  remember - an easy command-line based memory pad
+#    search the results with 'remindme'
 
 rememberfile="$HOME/.remember"
 
