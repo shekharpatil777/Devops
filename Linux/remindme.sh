@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# remindme - search a datafile for matching lines, or show the contents
+#   of the datafile if no arg is specified
 
 rememberfile="$HOME/.remember"
 
