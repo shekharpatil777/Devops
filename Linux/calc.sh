@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+# calc - a command-line calculator that acts as a front-end to bc
 
 scale=2
 
