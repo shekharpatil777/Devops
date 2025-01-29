@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+# checkspelling - check the spelling of a word
 
 spell="ispell -l"	  # if you have ispell installed instead
 			  # if not, just define spell=spell or
