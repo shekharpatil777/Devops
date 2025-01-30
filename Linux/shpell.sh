@@ -1,6 +1,13 @@
 #!/bin/sh
 
-
+# shpell - An interactive spell checking program that lets you step
+#   through all known spelling errors in a document, indicate which
+#   ones you'd like to fix (and the correction), then applies them
+#   all to the file. The original version of the file is saved with a
+#   .shp suffix and the new version replaces the old.
+#
+# Note that you need a standard 'spell' command for this to work, which
+# might involve you installing aspell, ispell, or pspell on your system.
 
 tempfile="/tmp/$0.$$"
 changerequests="/tmp/$0.$$.sed"
