@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# spelldict - use the 'aspell' feature and some filtering to allow easy
+#    command-line spell checking of a given input (file)
 
 okaywords="$HOME/.okaywords"
 tempout="/tmp/spell.tmp.$$"
