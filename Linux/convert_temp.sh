@@ -1,6 +1,8 @@
 #!/bin/sh
 
-
+# CONVERTATEMP - Temperature conversion script that lets the user enter
+#   a temperature in any of Fahrenheit, Celsius or Kelvin and receive the
+#   equivalent temperature in the other two units as the output.
 
 if uname | grep 'SunOS'>/dev/null ; then
   echo "Yep, SunOS, let\'s fix this baby"
