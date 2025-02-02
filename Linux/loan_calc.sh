@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+#  mortgage - given a principal loan amount, interest rate, and 
+#    duration of loan (years), calculate the per-payment amount.
 
 # formula is:    M = P * ( J / (1 - (1 + J) ** -N))
 #    where P = principal, J = monthly interest rate, N = duration (months)
