@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+# addagenda - prompt the user to add a new event for the Agenda script
 
 agendafile="$HOME/.agenda"
 
