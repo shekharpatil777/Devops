@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# agenda - scan through the user's .agenda file to see if there 
+#   are any matches for the current or next day
 
 agendafile="$HOME/.agenda"
 
