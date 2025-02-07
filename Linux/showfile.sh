@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# showfile - show the contents of a file, including additional useful info
+
 width=72
 
 for input
