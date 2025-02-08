@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# toolong - only feed the fmt command those lines in the input stream 
+#    that are longer than the specified length
 
 width=72
 
