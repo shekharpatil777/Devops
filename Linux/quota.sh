@@ -1,7 +1,8 @@
 #!/bin/sh
 # newquota - a front-end to quota that works with fullword flags a la GNU
 
-
+# quota has three possible flags: -g, -v and -q   and in this script
+#   we allow them to be '--group' '--verbose' and '--quiet' too:
 
 flags=""
 realquota="/usr/bin/quota"
