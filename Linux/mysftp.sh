@@ -1,6 +1,7 @@
 #!/bin/sh
 
 
+# mysftp - make sftp start up more like ftp
 
 echo -n "User account: "
 read account
