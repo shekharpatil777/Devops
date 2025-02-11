@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+# cgrep - grep with context display and highlighted pattern matches
 
 context=0
 esc=""   
