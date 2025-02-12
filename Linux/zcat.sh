@@ -1,6 +1,9 @@
 #!/bin/sh
 
 
+# zcat, zmore, and zgrep - this script should be either symbolically
+#   linked or hard linked to all three names - it allows users to work 
+#   with compressed files transparently.
 
  Z="compress";  unZ="uncompress"  ;  Zlist=""
 gz="gzip"    ; ungz="gunzip"      ; gzlist=""
