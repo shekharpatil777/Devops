@@ -1,6 +1,10 @@
 #!/bin/sh
 
 
+# bestcompress - given a file, try compressing it with all the available
+#   compression tools and keep the compressed file that's smallest, reporting 
+#   the result to the user.  If '-a' isn't specified, it skips compressed
+#   files in the input stream.
 
 Z="compress"
 gz="gzip" 
