@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# FQUOTA - Disk quota analysis tool for Unix. 
+#          Assumes that all user accounts are >= UID 100.
 
 MAXDISKUSAGE=20
 
