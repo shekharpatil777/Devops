@@ -1,6 +1,8 @@
 #!/bin/sh
 
-
+# DISKHOGS - Disk quota analysis tool for Unix, assumes all user 
+#   accounts are >= UID 100. Emails message to each violating user
+#   and reports a summary to the screen
 
 MAXDISKUSAGE=20
 violators="/tmp/diskhogs0.$$"
