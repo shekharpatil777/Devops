@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# diskspace - summarize available disk space and present in a logical
+#    and readable fashion
 
 tempfile="/tmp/available.$$"
 
