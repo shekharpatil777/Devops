@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# newdf - a friendlier version of df
 
 sedscript="/tmp/newdf.$$"
 
