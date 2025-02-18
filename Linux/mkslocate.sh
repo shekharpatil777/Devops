@@ -1,6 +1,9 @@
 #!/bin/sh
 
-
+# mkslocatedb - build the central, public locate database as user nobody,
+#    and simultaneously step through each home directory to find those
+#    that contain a .slocatedb file. If found, an additional, private
+#    version of the locate database will be created for that user.
 
 locatedb="/var/locate.db"
 slocatedb=".slocatedb"
