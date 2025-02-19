@@ -1,6 +1,8 @@
 #!/bin/sh
 
-
+# slocate - Try to search the user's secure locate database for the 
+#    specified pattern. If none exists, output a warning and create
+#    one. If secure locate db is empty, use system one instead.
 
 locatedb="/var/locate.db"
 slocatedb="$HOME/.slocatedb"
