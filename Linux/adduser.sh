@@ -1,6 +1,8 @@
 #!/bin/sh
 
-
+# ADDUSER - add a new user to the system, including building their
+#           home directory, copying in default config data, etc.
+#           For a standard Unix/Linux system, not Mac OS X
 
 pwfile="/etc/passwd"        shadowfile="/etc/shadow"
 gfile="/etc/group"
