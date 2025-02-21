@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+## Suspend - suspend a user account for the indefinite future
 
 homedir="/home"                # home directory for users
 secs=10                 # seconds before user is logged out
