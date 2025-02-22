@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+## Delete - delete a user account without a trace...
+#           Not for use with Mac OS X
 
 homedir="/home"
 pwfile="/etc/passwd"            shadow="/etc/shadow"
