@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# VALIDATOR - Checks to ensure that all environment variables are valid
+#   looks at SHELL, HOME, PATH, EDITOR, MAIL, and PAGER
 
 errors=0
 
