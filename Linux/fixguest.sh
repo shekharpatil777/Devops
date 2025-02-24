@@ -1,6 +1,9 @@
 #!/bin/sh
 
 
+# fixguest - Clean up the guest account during the logout process
+
+# don't trust environment variables: reference read-only sources
 
 iam="$(whoami)"
 myhome="$(grep "^${iam}:" /etc/passwd | cut -d: -f6)"
