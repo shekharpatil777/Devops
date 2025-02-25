@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# findsuid - find all SUID files or programs on the system other
+#    than those that live in /bin and /usr/bin, and
+#      output the matches in a friendly and useful format.
 
 mtime="7"        # how far back (in days) to check for modified cmds
 verbose=0        # by default, let's be quiet about things
