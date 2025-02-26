@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# setdate - friendly front-end to the date command
+
+# Date wants: [[[[[cc]yy]mm]dd]hh]mm[.ss]
 
 askvalue()
 {
