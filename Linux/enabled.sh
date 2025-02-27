@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# enabled - show what services are enabled with inetd and xinetd,
+# if they're available on the system
 iconf="/etc/inetd.conf"
 xconf="/etc/xinetd.conf"
 xdir="/etc/xinetd.d"
