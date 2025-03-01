@@ -1,5 +1,12 @@
 #!/bin/sh
 
+# killall - send the specified signal to all processes that match a 
+#   specific process name
+
+# By default it only kills processes owned by the same user, unless
+#   you're root. Use -s SIGNAL to specify a signal to send, -u user to 
+#   specify user, -t tty to specify a tty, and -n to only show what'd
+#   be done rather than doing it
 
 signal="-INT"        # default signal
 user=""   tty=""   donothing=0
