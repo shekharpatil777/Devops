@@ -1,6 +1,13 @@
 #!/bin/sh
 
 
+# verifycron - script checks a crontab file to ensure that it's
+#    formatted properly.  Expects standard cron notation of
+#       min hr dom mon dow CMD    
+#    where min is 0-59, hr 0-23, dom is 1-31, mon is 1-12 (or names)
+#    and dow is 0-7 (or names).  Fields can have ranges (a-e), lists
+#    separated by commas (a,c,z), or an asterisk. Note that the step 
+#    value notation of Vixie cron is not supported (e.g., 2-6/2).
 
 validNum()
 {
