@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# DOCRON - simple script to run the daily, weekly and monthly 
+#          system cron jobs on a system where it's likely that
+#          it'll be shut down at the usual time of day when 
+#          this would occur.
 
 rootcron="/etc/crontab"
 
