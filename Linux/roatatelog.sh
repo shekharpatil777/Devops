@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# rotatelogs - roll logfiles in /var/log for archival purposes.
+#    uses a config file to allow customization of how frequently
+#    each log should be rolled. That file is in 
+#       logfilename=duration
+#    format, where duration is in days. If nothing is configured,
+#    rotatelogs won't rotate more frequently than every seven days.
 
 logdir="/var/log"
 config="/var/log/rotatelogs.conf"
