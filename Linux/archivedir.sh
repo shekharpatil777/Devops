@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+# archivedir - create a compressed archive of the specified directory
 
 maxarchivedir=10        # size, in blocks, of 'big' directory, to confirm
 compress=gzip                # change to your favorite compress app
