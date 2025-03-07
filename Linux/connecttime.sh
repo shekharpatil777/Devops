@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# connecttime - reports cumulative connection time for month/year entries
+#  found in the system log file.
 
 log="/var/log/system.log"
 tempfile="/tmp/$0.$$"
