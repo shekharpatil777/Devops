@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# ftpget - given an ftp: style URL, unwrap it, and try to obtain the file
+#    using anonymous ftp.
 
 anonpass="$LOGNAME@$(hostname)"
 
