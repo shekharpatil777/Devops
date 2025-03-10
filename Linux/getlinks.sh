@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# getlinks - given a URL, return all of its internal and 
+#   external links
 
 if [ $# -eq 0 ] ; then
   echo "Usage: $0 [-d|-i|-x] url"  >&2
