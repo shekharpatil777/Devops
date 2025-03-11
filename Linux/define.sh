@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# define - given a word, return its definition from dictionary.com
 
 url="http://www.cogsci.princeton.edu/cgi-bin/webwn2.0?stage=1&word="
 
