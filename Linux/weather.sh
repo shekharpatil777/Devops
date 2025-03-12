@@ -1,6 +1,7 @@
 #!/bin/sh
 
 
+# weather - report weather forecast, including lat/long, for zip
 
 llurl="http://www.census.gov/cgi-bin/gazetteer?city=&state=&zip="
 wxurl="http://wwwa.accuweather.com"
