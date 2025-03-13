@@ -1,6 +1,9 @@
 #!/bin/sh
 
-
+# check library - log in to the Boulder Public library computer
+#     system and show the due date of everything checked out for
+#     the specified user. A demonstration of how to work with the
+#     method="post" form with lynx.
 
 lib1="http://nell.boulder.lib.co.us/patroninfo"
 lib2="items"
