@@ -1,6 +1,8 @@
 #!/bin/sh
 
-
+# moviedata - given a movie title, return a list of matches, if
+#   there's more than one, or a synopsis of the movie if there's
+#   just one. Uses the Internet Movie Database (imdb.com)
 
 imdburl="http://us.imdb.com/Tsearch?restrict=Movies+only&title="
 titleurl="http://us.imdb.com/Title?"
