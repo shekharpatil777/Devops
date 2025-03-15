@@ -1,6 +1,9 @@
 #!/bin/sh
 
+# exchangerate - given a currency amount, convert it into other major 
+#   currencies and show the equivalent amounts in each.
 
+# ref URL: http://www.ny.frb.org/pihome/statistics/forex12.shtml
 
 showrate()
 {
