@@ -1,6 +1,12 @@
 #!/bin/sh
 
-
+# getexchrate - scrape the current currency exchange rates 
+#   from CNN's money and finance Web site.
+#
+# Without any flags, this grabs the exchange rate values if the
+# current information is more than 12 hours old. It also shows 
+# success upon completion: something to take into account if
+# you run this from a cron job.
 
 url="http://money.cnn.com/markets/currencies/crosscurr.html"
 age="+720"	# 12 hours, in minutes
