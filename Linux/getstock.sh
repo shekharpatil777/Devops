@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# getstock - given a stock ticker symbol, return its current value
+#    from the Lycos web site
 
 url="http://finance.lycos.com/qc/stocks/quotes.aspx?symbols="
 
