@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# portfolio - calculate the value of each stock in your holdings, 
+#   then calculate the value of your overall portfolio, based on
+#   the latest stock market position.
 
 getstock="sh 069-getstock.sh"
 scriptbc="$HOME/bin/scriptbc"
