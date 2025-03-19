@@ -1,6 +1,7 @@
 #!/bin/sh 
 
-
+# changetrack - track a given URL, and if it's changed since the last
+#    visit, email the new page to the specified address.
 
 sitearchive="/tmp/changetrack"                # can change as desired
 sendmail="/usr/sbin/sendmail"                # might need to be tweaked!
