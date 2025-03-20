@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# show CGI env - display the CGI runtime environment, as given to any 
+#    CGI script on this system.
 
 echo "Content-type: text/html"
 echo ""
