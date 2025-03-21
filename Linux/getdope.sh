@@ -1,6 +1,8 @@
 #!/bin/sh
 
 
+# Within cron set it up so that every Friday, grab the latest column
+# of 'The Straight Dope' and mail it out to the specified recipient
 
 now="$(date +%y%m%d)"
 url="http://www.straightdope.com/columns/${now}.html"
