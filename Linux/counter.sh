@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# counter - a simple text-based page counter, with appropriate locking
+
 
 myhome="/home/taylor/web/wicked/examples"
 counter="$myhome/counter.dat"
