@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# updatecounter - a tiny script that updates the counter file to
+#   the value specified. Assumes that locking is done elsewhere.
 
 if [ $# -ne 1 ] ; then
    echo "Usage: $0 countfile"; exit 1
