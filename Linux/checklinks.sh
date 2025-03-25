@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# checklinks - traverse all internal URLs on a Web site, reporting
+#   any errors in the "traverse.errors" file.
+
 
 lynx="/usr/local/bin/lynx"      # this might need to be tweaked
 
