@@ -1,5 +1,10 @@
 #!/bin/sh 
 
+# checkexternal - traverse all internal URLs on a Web site to build a
+#   list of external references, then check each one to ascertain
+#   which might be dead or otherwise broken. The -a flag forces the
+#   script to list all matches, whether they're accessible or not: by
+#   default only unreachable links are shown.
 
 lynx="/usr/local/bin/lynx"      # might need to be tweaked
 listall=0; errors=0             # shortcut: two vars on one line!
