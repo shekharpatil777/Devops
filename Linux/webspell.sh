@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# webspell - use the 'aspell' feature + lynx to spell check either a 
+#    Web page URL or a file.
+
+# Inevitably you'll find that there are words it flags as wrong, but
+# you think are fine. Simply save them in a file, one-per-line, and
+# ensure that 'okaywords' points to that file.
 
 okaywords="$HOME/.okaywords"
 tempout="/tmp/webspell.$$"
