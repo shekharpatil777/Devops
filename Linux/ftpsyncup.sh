@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# ftpsyncup - Given a target directory on an ftp server, make sure that 
+#   all new or modified files are uploaded to the remote system. Uses
+#   a timestamp file ingeniously called .timestamp to keep track.
 
 timestamp=".timestamp"
 tempfile="/tmp/ftpsyncup.$$"
