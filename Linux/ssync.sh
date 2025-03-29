@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# ssync - If anything's changed, Create a tarball and sync a remote
+#    directory via sftp using sftpsync.
 
 sftpacct="taylor@intuitive.com"
 tarballname="AllFiles.tgz"
