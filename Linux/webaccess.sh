@@ -1,5 +1,9 @@
 #!/bin/sh
 
+
+# webaccess - analyze an Apache-format access_log file, extracting
+#    useful and interesting statistics
+
 bytes_in_gb=1048576
 scriptbc="$HOME/bin/scriptbc"
 nicenumber="$HOME/bin/nicenumber"
