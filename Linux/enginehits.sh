@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# enginehits - extract and analyze search engine traffic in the 
+#    referrer field of a Common Log Format access log for a
+#    specified domain name.
 
 maxmatches=25
 count=0
