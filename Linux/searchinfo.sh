@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# searchinfo - extract and analyze search engine traffic indicated in the 
+#    referrer field of a Common Log Format access log.
+
 
 host="intuitive.com"    # change to your domain, as desired
 maxmatches=20
