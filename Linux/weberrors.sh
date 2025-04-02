@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# weberrors - scan through an Apache error_log file and report the 
+#    most important errors, then list additional entries.
 
 temp="/tmp/$(basename $0).$$"
 
