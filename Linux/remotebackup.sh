@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# remotebackup - This script takes a list of files and directories,
+#    builds a single archive, compressed, then emails it off to a 
+#    remote archive site for safekeeping. It's intended to be run
+#    every night for critical user files, but not intended to 
+#    replace a more rigorous backup scheme. You should strongly 
+#    consider using 'unpacker' on the remote end too.
 
 uuencode="/usr/bin/uuencode"
 outfile="/tmp/rb.$$.tgz"
