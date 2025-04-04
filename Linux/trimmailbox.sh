@@ -1,6 +1,8 @@
 #!/bin/sh
 
-
+# trimmailbox - a simple script to ensure that only the four most recent
+#    messages remain in the users mailbox. Works with Berkeley Mail 
+#    (aka Mailx or mail): will need modifications for other mailers!!
 
 keep=4	# by default, let's just keep around the four most recent messages
 
