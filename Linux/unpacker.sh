@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# unpacker - given an input stream with a uuencoded archive from 
+# the remotearchive script, this unpacks and installs the archive.
 
 temp="/tmp/$(basename $0).$$"
 home="${HOME:-/usr/home/taylor}"
