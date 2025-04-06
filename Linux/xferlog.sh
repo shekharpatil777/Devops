@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# xferlog - analyze and summarize the FTP transfer log. A good doc 
+#   detailing the log format: http://aolserver.am.net/docs/2.3/ftp-ch4.htm
 
 stdxferlog="/var/log/xferlog"
 temp="/tmp/$(basename $0).$$"
