@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+# getstats - every 'n' minutes, grab netstats values (via crontab)
 
 logfile="/var/log/netstat.log"
 temp="/tmp/getstats.tmp" 
