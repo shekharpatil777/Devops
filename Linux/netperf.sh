@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# netperf - analyze the netstat running performance log, identifying important
+#    results and trends.
 
 log="/var/log/netstat.log"
 scriptbc="$HOME/bin/scriptbc"
