@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+# renicename - renice the job that matches the specified name.
 
 user=""; tty=""; showpid=0; niceval="+1"	# initialize
 
