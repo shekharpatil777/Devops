@@ -1,6 +1,8 @@
 #!/bin/sh
 
 
+# watch and nice - watch for the specified process name, and renice 
+#  to the desired value when seen
 
 renicename="$HOME/bin/renicename"
 
