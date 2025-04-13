@@ -1,6 +1,8 @@
 #!/bin/sh
 
+# addvirtual - add a virtual host to an Apache configuration file
 
+# you'll want to modify all of these to point to the proper directories
 
 docroot="/etc/httpd/html"
 logroot="/var/log/httpd/"
