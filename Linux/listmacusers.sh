@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Simple script to list users in the Mac OS X NetInfo database
+#   note that Mac OS X also has an /etc/passwd file, but that's
+#   only used during the initial stages of boot time and for
+#   recovery bootups. Otherwise, all data is in the NetInfo db.
 
 
 fields=""
