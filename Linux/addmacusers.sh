@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# ADDUSER - add a new user to the system, including building their
+#           home directory, copying in default config data, etc.
+# You can choose to have every user in their own group (which requires
+# a few tweaks) or use the default behavior of having everyone put 
+# into the same group. Tweak dgroup and dgid to match your own config.
 
 dgroup="guest"; dgid=31	   # default group and groupid
 hmdir="/Users"
