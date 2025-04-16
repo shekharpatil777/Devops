@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# addalias - add a new alias to the email alias database on Mac OS X
+#   this presumes that you've enabled sendmail, which can be kind of
+#   tricky. Go to http://www.macdevcenter.com/ and search for 'sendmail'
+#   for some good reference works.
 
 showaliases="nidump aliases ."
 
