@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# itunelist - list your iTunes library in a succinct and attractive
+#   manner, suitable for sharing with others and using (with diff)
+#   to ensure that you have synchronized iTune libraries on different
+#   computers and laptops.
+
 
 itunehome="$HOME/Music/iTunes"
 ituneconfig="$itunehome/iTunes Music Library.xml"
