@@ -1,5 +1,12 @@
 #!/bin/sh
 
+# open2 - a smart wrapper for the cool Mac OS X 'open' command
+#   to make it even more useful. By default, open launches the
+#   appropriate application for a specified file or directory
+#   based on the Aqua bindings, and has a limited ability to 
+#   launch applications if they're in the /Applications dir.
+
+# first off, whatever argument we're given, try it directly:
 
 open=/usr/bin/open
 
