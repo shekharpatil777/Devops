@@ -1,6 +1,8 @@
 #!/bin/sh
 
 
+# unscramble - pick a word, scramble it, and ask the user to guess
+#    what the original word (or phrase) was...
 
 wordlib="/usr/lib/games/long-words.txt"
 randomquote="$HOME/bin/randomquote.sh"
