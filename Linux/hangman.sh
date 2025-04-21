@@ -1,6 +1,8 @@
 #!/bin/sh
 
-
+# hangman - a rudimentary version of the hangman game. Instead of showing a
+#   gradually embodied hanging man, this simply has a bad guess countdown.
+#   You can optionally indicate steps from the gallows as the only arg.
 
 wordlib="/usr/lib/games/long-words.txt"
 randomquote="$HOME/bin/randomquote.sh"
