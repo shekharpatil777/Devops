@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# states - a state capital guessing game. Requires the state capitals
+#   datafile at http://www.intuitive.com/wicked/examples/state.capitals.txt
 
 db="/usr/lib/games/state.capitals.txt"
 randomquote="$HOME/bin/randomquote.sh"
