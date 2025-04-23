@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# how many commands: a simple script to count how many executable commands
+#   are in your current PATH.
 
 
 myPATH="$(echo $PATH | sed -e 's/ /~~/g' -e 's/:/ /g')"
