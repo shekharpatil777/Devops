@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+# specify palindrome possibility as args
 
 if [ $# -eq 0 ] ; then
   echo Usage: $0 possible palindrome >&2
