@@ -11,3 +11,5 @@ else
 	echo "$HTTPDLOG not found. Make sure domain exists and setup correctly."
 fi
 /bin/rm -f $OUT
+
+#lists all ip
