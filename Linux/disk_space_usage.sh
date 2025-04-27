@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#code checks for disck space usage
 read -p "Enter disk space must be usage: " disk;
 
 usage=`df -h | awk '{print $5}' | sed -e N -e 's/\n/ /' | awk '{print $2}' | tr -d % -s "\n"`
