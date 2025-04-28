@@ -1,0 +1,86 @@
+CHANDRASHEKHAR RAJPAL PATIL
+
+India 
+PATILSHEKHAR1412@GMAIL.COM 
+9634754633 
+linkdin: in/chandrashekhar-patil https://github.com/shekharpat777
+
+SUMMARY
+
+I'm a passionate DevOps Engineer with 3.8 years of haruls-on work experience bridging the gap between development and operations. I thrive in dynamic environments, leveraging my expertise in Jenkins, CI/CD pipelines, Git, Ansible, AWS, and Kubernetes to automate worldlows, build resilient infrastructure, and accelerate software delivery. My focus is on streamlining processes, enhancing collaboration, and driving continuous improvement through the DevOps lifecycle.
+
+EXPERIENCE
+
+Senior system engineer Infosys
+
+September 2023-Present. Pune
+
+Successfully implemented CI/CD pipelines with rigorous security checks and automated compliance audits, reducing deployment time by
+
+10% for a major bank's core bariling system
+
+optimized resources used in AWS and less execution time of build leading to significantiy less AWS cost.
+
+ensured timely service upgrades for environments are done and automated tasks by using Ansible to reduce manual work
+
+System engineer
+
+Infosys
+
+December 2021-September 2023, pune
+
+created jenkins johns as per the requirernent of the project with all unifiguration and Ansible ride to automate the build pipeliw.
+
+created and implemented cronjobs for scheduled tasks reducing time consumed and avoided repetitive tasks.
+
+Java, Kubernetes, Ansible, docker, aws and DevOps
+
+System engineer trainee
+
+Infosys The training provided a solid foundation for a full-stack development journey. By mastering Spring Boot and Angular, we were able to create
+
+September 2021-December 2021, Mysore
+
+robust, scalable, and user-centric web applications.
+
+PROJECTS
+
+Infrastructure as Code for production infrastructure using Terraform
+
+Infosys October 2021-January 2024
+
+Autorisated infrastructure mariagement that helped us to free up IT resources for higher-level tasks
+
+terraform configurations were useful to rebuild infrastructure quickly in case of disaster.
+
+Automated Deployment Pipeline for microservices
+
+Infosys February 2023 September 2023
+
+The pipeline will streamline the workflow from code commit te production deployment, ensuring efficiency, reliability, and faster release cycles.
+
+Autornating deployments significantly helped to decrease the time to market for new features and bug fixes
+
+EDUCATION
+
+Bachelor of Computer Engineering
+
+University of Pune India 2021-7.28
+
+CERTIFICATIONS
+
+AWS Cloud Practioner
+
+Amazon web services 2023
+
+Ansible
+
+Lex Infosys 2022
+
+kubernetes
+
+Lex Infosys 2022
+
+SKILLS
+
+Ansible, docker, python, kubernetes, maven, jenkins, cied, AWS
