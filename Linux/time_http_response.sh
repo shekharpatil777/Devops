@@ -10,3 +10,5 @@ let total_time=stop-start
 
 echo $total_time
 
+#curl command used
+
