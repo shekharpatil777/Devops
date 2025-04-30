@@ -16,3 +16,5 @@ put $FILE_NAME
 
 EOF
 
+#access file
+
