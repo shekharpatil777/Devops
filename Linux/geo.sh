@@ -61,7 +61,7 @@ EOF
     exit
 }
 
-
+# Displays version number
 version() {
   echo "Version $currentVersion"
 }
