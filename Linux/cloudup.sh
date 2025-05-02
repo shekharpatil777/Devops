@@ -10,7 +10,7 @@ source="0"
 tStamp="0"
 
 
-
+## This function determines which http get tool the system has installed and returns an error if there isnt one
 getConfiguredClient()
 {
   if  command -v curl &>/dev/null; then
