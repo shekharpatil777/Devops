@@ -1,3 +1,9 @@
+"""
+Meant to be used like this:
+
+python scripts/update_question_number.py
+
+"""
 import pathlib
 from scripts.question_utils import get_question_list, get_challenges_count
 
