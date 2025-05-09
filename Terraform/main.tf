@@ -16,7 +16,9 @@ terraform {
   }
 }
 
-
+provider "aws" {
+  region = "your-aws-region" # Replace with your desired AWS region (e.g., us-east-1)
+}
 
 # Data source to retrieve existing VPC and Subnets (replace with your specifics)
 data "aws_vpc" "selected" {
