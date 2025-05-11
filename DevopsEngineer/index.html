@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for animations and enhanced UI - Optional, for demonstration */
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .slide-in-left {
+            animation: slideInLeft 0.5s ease-out;
+        }
+        @keyframes slideInLeft {
+            from { transform: translateX(-20px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        .slide-in-right {
+            animation: slideInRight 0.5s ease-out;
+        }
+        @keyframes slideInRight {
+            from { transform: translateX(20px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        .pop-up {
+            animation: popUp 0.3s ease-out;
+        }
+        @keyframes popUp {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        .hover-scale-up {
+            transition: transform 0.2s ease-in-out;
+        }
+        .hover-scale-up:hover {
+            transform: scale(1.05);
+        }
+        .bg-gradient-to-r {
+          background-image: linear-gradient(to right, #4f46e5, #6366f1);
+        }
+
+    </style>
+</head>
+<body class="bg-gray-950 text-white font-inter">
+    <header class="bg-gray-900 sticky top-0 z-50 border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-400 flex items-center">
+                 <i data-lucide="rocket" class="inline-block w-6 h-6 mr-2 text-blue-500"></i>
+                <span class="text-white">DevOps</span> Engineer
+            </a>
+            <nav class="space-x-6">
+                <a href="#home" class="hover:text-gray-300 transition-colors">Home</a>
+                <a href="#projects" class="hover:text-gray-300 transition-colors">Projects</a>
+                <a href="#connect" class="hover:text-gray-300 transition-colors">Connect</a>
+                <a href="#products" class="hover:text-gray-300 transition-colors">Products</a>
+                <a href="#support" class="hover:text-gray-300 transition-colors">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="bg-gray-950 text-center py-20 px-6 fade-in">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 flex items-center justify-center gap-3">
+                <i data-lucide="rocket" class="inline-block w-10 h-10 sm:w-12 sm:h-12 mr-2"></i>
+                Hi, I'm A <span class="text-white">DevOps Engineer</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-300 mb-8">I help businesses build and scale their infrastructure.</p>
+            <a href="#connect" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-300 inline-flex items-center">
+                <i data-lucide="mail" class="mr-2 h-5 w-5"></i>
+                Get in Touch
+            </a>
+        </section>
+
+        <section id="about" class="bg-gray-900 py-16 px-6">
+            <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <div class="slide-in-left">
+                    <h2 class="text-3xl font-bold text-blue-400 mb-4">About Me</h2>
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        I am a DevOps Engineer with a passion for automating infrastructure, streamlining development workflows,
+                        and ensuring high availability. With experience in cloud platforms, CI/CD pipelines, and configuration
+                        management, I help organizations deliver software faster and more reliably.
+                    </p>
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-semibold text-blue-400 mb-4 flex items-center">
+                            <i data-lucide="code-2" class="inline-block w-6 h-6 mr-2"></i>
+                            Key Skills
+                        </h3>
+                        <ul class="list-disc list-inside grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-gray-300">
+                            <li>Cloud Platforms (AWS, Azure, GCP)</li>
+                            <li>CI/CD Pipelines (Jenkins, GitLab CI)</li>
+                            <li>Configuration Management (Ansible, Terraform)</li>
+                            <li>Containerization (Docker, Kubernetes)</li>
+                            <li>Scripting (Bash, Python)</li>
+                            <li>Monitoring & Logging (Prometheus, ELK)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide-in-right">
+                    <img src="./images/main.jpg" alt="DevOps Engineer Profile" class="rounded-full shadow-lg">
+                </div>
+            </div>
+             <div class="mt-12 text-center">
+                <h2 class="text-2xl font-semibold text-white mb-4">Connect With Me</h2>
+                <div class="flex justify-center gap-6">
+                    <a href="https://github.com/shekharpatil777" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors" aria-label="GitHub Profile">
+                        <i data-lucide="github" class="w-7 h-7"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/chandrashekhar-patil/
+                    " target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-500 transition-colors" aria-label="LinkedIn Profile">
+                        <i data-lucide="linkedin" class="w-7 h-7"></i>
+                    </a>
+                    <a href="mailto:patilshekhar1412@gmail.com" class="text-gray-400 hover:text-green-500 transition-colors" aria-label="Email Address">
+                        <i data-lucide="mail" class="w-7 h-7"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="bg-gray-950 py-16 px-6">
+            <div class="container mx-auto text-center mb-12">
+                <h2 class="text-3xl font-bold text-blue-400 flex items-center justify-center gap-3">
+                     <i data-lucide="code-2" class="inline-block w-8 h-8 mr-2"></i>
+                    My Projects
+                </h2>
+                <p class="text-lg text-gray-300">Here are some of the projects I've worked on.</p>
+            </div>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                 <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-2 flex items-center">
+                        <i data-lucide="code-2" class="inline-block w-5 h-5 mr-2"></i>
+                        Infrastructure Automation
+                    </h3>
+                    <p class="text-gray-300 mb-4">Automated infrastructure provisioning and management using Terraform and Ansible.</p>
+                    <img src="./images/tf.png" alt="Project 1" class="w-full h-48 object-cover rounded-md mb-4">
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Terraform</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Ansible</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">AWS</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Docker</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-2 flex items-center">
+                        <i data-lucide="code-2" class="inline-block w-5 h-5 mr-2"></i>
+                        CI/CD Pipeline
+                    </h3>
+                    <p class="text-gray-300 mb-4">Implemented a CI/CD pipeline with Jenkins and Kubernetes for seamless deployments.</p>
+                     <img src="./images/eks.jpg" alt="Project 2" class="w-full h-48 object-cover rounded-md mb-4">
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Jenkins</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Kubernetes</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Helm</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Git</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-2 flex items-center">
+                        <i data-lucide="code-2" class="inline-block w-5 h-5 mr-2"></i>
+                        Monitoring and Logging
+                    </h3>
+                    <p class="text-gray-300 mb-4">Set up centralized monitoring and logging with Prometheus, Grafana, and Elasticsearch.</p>
+                    <img src="./images/elk.png" alt="Project 3" class="w-full h-48 object-cover rounded-md mb-4">
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Prometheus</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Grafana</span>
+                         <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Elasticsearch</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Kibana</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-2 flex items-center">
+                        <i data-lucide="code-2" class="inline-block w-5 h-5 mr-2"></i>
+                        Monitoring and Logging
+                    </h3>
+                    <p class="text-gray-300 mb-4">Set up centralized monitoring and logging with Prometheus, Grafana, and Elasticsearch.</p>
+                    <img src="./images/elk.png" alt="Project 3" class="w-full h-48 object-cover rounded-md mb-4">
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Prometheus</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Grafana</span>
+                         <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Elasticsearch</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Kibana</span>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-2 flex items-center">
+                        <i data-lucide="code-2" class="inline-block w-5 h-5 mr-2"></i>
+                        Monitoring and Logging
+                    </h3>
+                    <p class="text-gray-300 mb-4">Set up centralized monitoring and logging with Prometheus, Grafana, and Elasticsearch.</p>
+                    <img src="./images/elk.png" alt="Project 3" class="w-full h-48 object-cover rounded-md mb-4">
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Prometheus</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Grafana</span>
+                         <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Elasticsearch</span>
+                        <span class="bg-gray-700 text-gray-200 px-2 py-1 rounded-full text-sm">Kibana</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="bg-gray-900 py-16 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-blue-400 mb-8 text-center">Connect With Me</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-md pop-up">
+                        <h3 class="text-xl font-semibold text-white mb-4">Send a Message</h3>
+                        <p class="text-gray-300 mb-6">Please fill out the form below to get in touch.</p>
+                        <form id="contact-form" class="space-y-4" action="https://formsubmit.co/patilshekhar1412@gmail.com" method="POST">
+                            <!-- Hidden inputs for FormSubmit -->
+                            <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                            <input type="text" name="_formsubmit_id" style="display:none">
+                            
+                            <!-- Name Field -->
+                            <div class="space-y-2">
+                              <label for="name" class="text-sm font-medium block text-gray-200">Name <span class="text-red-500">*</span></label>
+                              <input type="text" id="name" name="name" placeholder="Your Name" required class="border-gray-600 bg-gray-700 text-white w-full px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                              <div id="name-error" class="text-red-500 text-sm mt-1 hidden">Please enter your name.</div>
+                            </div>
+                          
+                            <!-- Email Field -->
+                            <div class="space-y-2">
+                              <label for="email" class="text-sm font-medium block text-gray-200">Email <span class="text-red-500">*</span></label>
+                              <input type="email" id="email" name="email" placeholder="you@example.com" required class="border-gray-600 bg-gray-700 text-white w-full px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                              <div id="email-error" class="text-red-500 text-sm mt-1 hidden">Please enter a valid email address.</div>
+                            </div>
+                          
+                            <!-- Phone Field -->
+                            <div class="space-y-2">
+                              <label for="phone" class="text-sm font-medium block text-gray-200">Phone</label>
+                              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" class="border-gray-600 bg-gray-700 text-white w-full px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                          
+                            <!-- Message Field -->
+                            <div class="space-y-2">
+                              <label for="message" class="text-sm font-medium block text-gray-200">Project Requirements <span class="text-red-500">*</span></label>
+                              <textarea id="message" name="message" placeholder="Describe your project needs..." required class="border-gray-600 bg-gray-700 text-white w-full px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 min-h-[120px]"></textarea>
+                              <div id="message-error" class="text-red-500 text-sm mt-1 hidden">Please enter your project requirements.</div>
+                            </div>
+                          
+                            <!-- Submit Button -->
+                            <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-300" id="submit-button">
+                              <i data-lucide="mail" class="mr-2 h-4 w-4 inline-block"></i>
+                              Send Message
+                            </button>
+                          </form>
+                          
+                        <div id="form-status" class="mt-4 text-center font-semibold"></div>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-md pop-up">
+                        <h3 class="text-xl font-semibold text-white mb-4">Other Ways to Connect</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-4">
+                                <i data-lucide="github" class="w-6 h-6 text-gray-400"></i>
+                                <a href="https://github.com/shekharpatil777" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:underline">GitHub: github.com/shekharpatil777</a>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <i data-lucide="linkedin" class="w-6 h-6 text-gray-400"></i>
+                                <a href="https://www.linkedin.com/in/chandrashekhar-patil/" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:underline">LinkedIn:/in/chandrashekhar-patil/</a>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                 <i data-lucide="mail" class="w-6 h-6 text-gray-400"></i>
+                                <a href="mailto:patilshekhar1412@gmail.com" class="text-blue-400 hover:underline">Email: send mailto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="bg-gray-950 py-16 px-6">
+            <div class="container mx-auto text-center mb-12">
+                <h2 class="text-3xl font-bold text-blue-400">Products</h2>
+                <p class="text-lg text-gray-300">Check out my open-source contributions and products.</p>
+            </div>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                 <div class="bg-gray-800 rounded-lg shadow-md p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-4">Personal Website Starter</h3>
+                    <p class="text-gray-300 mb-4">A template to quickly set up your personal website.</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-400">
+                        <li>Next.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>Markdown Support</li>
+                        <li>SEO Optimized</li>
+                    </ul>
+                     <a href="https://github.com/your-username/personal-website-starter" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block text-blue-400 hover:text-white hover:underline">View on GitHub</a>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-4">K8s Deployment Tool</h3>
+                    <p class="text-gray-300 mb-4">A CLI tool for simplifying Kubernetes deployments.</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-400">
+                        <li>CLI Interface</li>
+                        <li>YAML Configuration</li>
+                        <li>Rollback Support</li>
+                        <li>Multi-Cluster Support</li>
+                    </ul>
+                    <a href="https://github.com/your-username/k8s-deployment-tool" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block text-blue-400 hover:text-white hover:underline">View on GitHub</a>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-4">Monitoring Dashboard</h3>
+                    <p class="text-gray-300 mb-4">A Grafana dashboard for monitoring system performance.</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-400">
+                        <li>Grafana Compatible</li>
+                        <li>Real-time Data</li>
+                        <li>Customizable Panels</li>
+                        <li>Alerting Support</li>
+                    </ul>
+                    <a href="https://github.com/your-username/monitoring-dashboard" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block text-blue-400 hover:text-white hover:underline">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="bg-gray-900 py-16 px-6">
+            <div class="container mx-auto text-center mb-12">
+                <h2 class="text-3xl font-bold text-blue-400 flex items-center justify-center gap-3">
+                    <i data-lucide="life-buoy" class="inline-block w-8 h-8 mr-2"></i>
+                    Support
+                </h2>
+                <p class="text-lg text-gray-300">Need help? Here are some ways to get support.</p>
+            </div>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-4">Frequently Asked Questions</h3>
+                    <p class="text-gray-300 mb-4">Find answers to common questions.</p>
+                    <a href="#" class="mt-4 inline-block text-blue-400 hover:text-white hover:underline">View FAQs</a>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-4">Documentation</h3>
+                    <p class="text-gray-300 mb-4">Detailed guides and tutorials.</p>
+                     <a href="#" class="mt-4 inline-block text-blue-400 hover:text-white hover:underline">View Docs</a>
+                </div>
+                <div class="bg-gray-800 rounded-lg shadow-md p-6 hover-scale-up transition-transform pop-up">
+                    <h3 class="text-xl font-semibold text-blue-400 mb-4">Contact Support</h3>
+                    <p class="text-gray-300 mb-4">Get in touch with our support team.</p>
+                    <a href="#connect" class="mt-4 inline-block text-blue-400 hover:text-white hover:underline">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-6 text-center border-t border-gray-800">
+        <p>&copy; {new Date().getFullYear()} My DevOps Website. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide-react@latest/umd/lucide-react.min.js"></script>
+    <script>
+        // Form validation and submission using only JavaScript
+        document.addEventListener('DOMContentLoaded', () => {
+            const contactForm = document.getElementById('contact-form');
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const messageInput = document.getElementById('message');
+            const nameError = document.getElementById('name-error');
+            const emailError = document.getElementById('email-error');
+            const messageError = document.getElementById('message-error');
+            const formStatus = document.getElementById('form-status');
+            const submitButton = document.getElementById('submit-button');
+
+            function validateForm() {
+                let isValid = true;
+                if (!nameInput.value.trim()) {
+                    nameError.classList.remove('hidden');
+                    isValid = false;
+                } else {
+                    nameError.classList.add('hidden');
+                }
+                if (!emailInput.value.trim() || !isValidEmail(emailInput.value.trim())) {
+                    emailError.classList.remove('hidden');
+                    isValid = false;
+                } else {
+                    emailError.classList.add('hidden');
+                }
+                if (!messageInput.value.trim()) {
+                    messageError.classList.remove('hidden');
+                    isVa
