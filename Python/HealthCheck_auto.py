@@ -1,6 +1,7 @@
 import psutil
 import time
 
+#This script checks the CPU usage, memory usage, and disk space of a server.
 def check_server_health():
     cpu_percent = psutil.cpu_percent()
     mem = psutil.virtual_memory()
