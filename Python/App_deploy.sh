@@ -1,5 +1,6 @@
 import os
 
+#This script simulates a basic application deployment by creating a directory and a dummy file.
 def deploy_app(app_name="my_app"):
     deploy_path = f"/tmp/{app_name}"
     if not os.path.exists(deploy_path):
