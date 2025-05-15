@@ -1,5 +1,7 @@
 import time
 
+#This script tails a log file and prints any lines containing the word "ERROR".
+
 def monitor_log(log_file="application.log"):
     try:
         with open(log_file, "r") as f:
