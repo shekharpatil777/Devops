@@ -2,6 +2,8 @@ import shutil
 import os
 from datetime import datetime
 
+#This script copies a specified directory to a backup location.
+
 def create_backup(source_dir, backup_dir="backup"):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     backup_path = os.path.join(backup_dir, f"backup_{timestamp}")
