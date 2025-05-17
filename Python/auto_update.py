@@ -1,5 +1,7 @@
 import paramiko
 
+#This script uses the paramiko library (install with pip install paramiko) to connect to a remote server via SSH and run package updates.
+
 def update_remote_packages(hostname, port, username, password):
     try:
         client = paramiko.SSHClient()
