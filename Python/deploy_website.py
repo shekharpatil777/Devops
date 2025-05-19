@@ -1,6 +1,8 @@
 import boto3
 import os
 
+#This script uploads files from a local directory to an AWS S3 bucket. You'll need Boto3 installed and AWS credentials configured.
+
 def deploy_to_s3(local_dir, bucket_name):
     s3 = boto3.client('s3')
     for root, _, files in os.walk(local_dir):
