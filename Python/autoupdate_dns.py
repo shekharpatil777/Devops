@@ -1,6 +1,8 @@
 import requests
 import json
 
+#This is more provider-specific, but here's a conceptual example using a placeholder API interaction. You would need to consult your DNS provider's API documentation (e.g., for Cloudflare, Route 53, etc.).
+
 def update_dns_record(api_url, api_token, record_id, new_value):
     headers = {
         "Authorization": f"Bearer {api_token}",
