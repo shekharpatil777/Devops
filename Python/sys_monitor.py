@@ -2,6 +2,9 @@ import psutil
 import time
 import matplotlib.pyplot as plt
 
+#Dashboards (using libraries like plotly or matplotlib)
+This code fetches CPU usage and generates a simple plot (you'll need matplotlib installed: pip install matplotlib).
+
 def monitor_and_plot_cpu():
     cpu_history = []
     time_history = []
