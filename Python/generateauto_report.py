@@ -1,6 +1,8 @@
 import psutil
 from datetime import datetime
 
+#This script fetches CPU and memory usage and generates a simple text report.
+
 def generate_system_report(report_file="system_report.txt"):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     cpu_percent = psutil.cpu_percent()
