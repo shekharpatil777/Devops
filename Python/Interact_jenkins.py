@@ -1,6 +1,8 @@
 import requests
 from requests.auth import HTTPBasicAuth
 
+#Interacting with Jenkins API
+
 jenkins_url = "http://your-jenkins-url:8080"
 job_name = "your-job-name"
 auth = HTTPBasicAuth('your_username', 'your_api_token')
