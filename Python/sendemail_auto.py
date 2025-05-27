@@ -1,6 +1,8 @@
 import smtplib
 from email.mime.text import MIMEText
 
+#send automatic email
+
 sender_email = "your_email@example.com"
 sender_password = "your_password"
 receiver_email = "recipient@example.com"
