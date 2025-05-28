@@ -1,5 +1,7 @@
 import requests
 
+#Making HTTP Requests
+
 url = "https://api.example.com/data"
 try:
     response = requests.get(url)
