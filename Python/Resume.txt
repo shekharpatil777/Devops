@@ -1,0 +1,37 @@
+CHANDRASHEKHAR PATIL 
+DevOps Engineer
+  Profile 
+System DevOps Engineer with over 4 years of experience in optimizing CI/CD processes and cloud infrastructure, driving significant improvements in deployment efficiency, 
+system reliability, and cost optimization. Expertise in implementing and managing AWS infrastructure, leveraging Terraform to create scalable and secure environments.
+Committed to   continuous learning and proficient in implementing DevOps best practices to achieve impactful results.
+  Employment History
+Senior System Engineer at Infosys
+  October 2023 - Present
+•	Improved CI/CD pipelines for a banking client, reducing deployment time by 25%.
+•	Optimized AWS infrastructure to minimize costs and improve performance.
+•	Automated upgrade processes, reducing manual workload and potential for errors.
+System Engineer at Infosys
+September 2021 – October 2023
+•	Built robust microservices deployment pipelines using Jenkins and Kubernetes.
+•	Automated infrastructure provisioning, enhancing system reliability.
+•	Developed cron jobs and integrated Ansible playbooks for task automation.
+  Education
+Bachelor of Computer Engineering, Savitribai Phule Pune University
+2017-2021 CGPA: 7.28
+  Certifications
+•	AWS Certified Solutions Architect Associate, AWS certification
+May 2025 -May 2028
+•	AWS certified cloud Practitioner, AWS certification
+•	Kubernetes certified, Infosys lex
+
+
+aws  url: https://www.credly.com/badges/2f5b45fd-c320-46b7-a601-28bcb136a6e0
+
+
+aws saa url: https://www.credly.com/badges/e3769199-681b-4a5d-b07e-3205caeadf58/public_url
+ 
+
+
+
+
+
