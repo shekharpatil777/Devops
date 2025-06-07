@@ -1,0 +1,54 @@
+---
+- name: Update packages and install application
+  hosts: all
+  become: yes  # This allows tasks to be run with root privileges (e.g., using sudo)
+  gather_facts: yes # Gathers facts about the remote hosts, like OS family
+
+  tasks:
+    - name: Update all packages on Debian/Ubuntu servers
+      ansible.builtin.apt:
+        update_cache: yes
+        upgrade: dist
+      when: ansible_os_family == "Debian"
+      register: apt_update_status
+      retries: 3
+      delay: 10
+      until: apt_update_status is succeeded
+
+    - name: Update all packages on RedHat/CentOS servers
+      ansible.builtin.yum:
+        name: '*'
+        state: latest
+      when: ansible_os_family == "RedHat"
+      register: yum_update_status
+      retries: 3
+      delay: 10
+      until: yum_update_status is succeeded
+
+    - name: Install Nginx web server
+      #
+      # NOTE: You can replace 'nginx' with the name of any other application
+      # you wish to install. For example, 'apache2', 'docker', 'git', etc.
+      # The 'state: present' ensures the package is installed.
+      #
+      ansible.builtin.package:
+        name: nginx
+        state: present
+      register: install_status
+      retries: 3
+      delay: 10
+      until: install_status is succeeded
+
+    - name: Ensure Nginx service is started and enabled on boot
+      #
+      # NOTE: This task is specific to services. If the application you
+      # are installing is not a service (e.g., 'git'), you can
+      # remove or comment out this task.
+      #
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: yes
+      when: install_status is succeeded
+
+
