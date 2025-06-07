@@ -51,4 +51,12 @@
         enabled: yes
       when: install_status is succeeded
 
+    - name: Debugging output for package updates
+      ansible.builtin.debug:
+        msg: "Package update completed successfully."
+      when: apt_update_status is succeeded or yum_update_status is succeeded
 
+    - name: Debugging output for application installation
+      ansible.builtin.debug:
+        msg: "Application 'nginx' installed successfully."
+      when: install_status is succeeded
